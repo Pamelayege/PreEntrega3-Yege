@@ -1,0 +1,20 @@
+/*/VARIABLES/*/
+img {
+  max-width: 100%; }
+
+.container {
+  max-width: 960px;
+  border: 1px solid black;
+  margin: auto; }
+
+header {
+  background-color: #fcb73f; }
+
+nav {
+  font-size: 15px; }
+  nav ul {
+    list-style: none; }
+    nav ul a {
+      text-decoration: none; }
+      nav ul a li {
+        padding: 0 10px; }

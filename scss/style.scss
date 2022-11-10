@@ -1,0 +1,32 @@
+/*/VARIABLES/*/
+
+$principal-color:#996508;
+$total-font:'Roboto', sans-serif;
+$header-bcolor: #fcb73f;
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 960px;
+    border: 1px solid black;
+    margin: auto;
+}
+
+header {
+    background-color: $header-bcolor;
+}
+
+nav {
+    font-size: 15px; 
+    ul {
+        list-style: none; 
+        a { 
+            text-decoration: none; 
+            li {
+                padding: 0 10px; 
+            }
+        }
+    }
+}
