@@ -1,14 +1,15 @@
 /*/VARIABLES/*/
 
-$principal-color:#996508;
-$total-font:'Roboto', sans-serif;
+$principal-color: #996508;
+$total-font: 'Roboto', sans-serif;
 $header-bcolor: #fcb73f;
+$medida: 2rem;
 
 img {
     max-width: 100%;
 }
 
-.container {
+.container2 {
     max-width: 960px;
     border: 1px solid black;
     margin: auto;
@@ -16,17 +17,52 @@ img {
 
 header {
     background-color: $header-bcolor;
+
+    h1 {
+        text-transform: uppercase;
+        font-size: $medida;
+        margin-bottom: 0;
+    }
+
+    h2 {
+        font-size: .8rem;
+    }
 }
 
-nav {
-    font-size: 15px; 
-    ul {
-        list-style: none; 
-        a { 
-            text-decoration: none; 
-            li {
-                padding: 0 10px; 
-            }
-        }
+section {
+
+    h3 {
+        text-transform: uppercase;
+        font-size: 2rem;
+        margin-bottom: 0;
+        padding-top: 50px;
     }
+
+    p {
+        font-size: 1rem;
+    }
+}
+
+
+
+
+
+footer {
+    background-color: rgb(221, 221, 221);
+    text-align: justify;
+
+    text {
+        font-size: 1rem;
+    }
+
+    li {
+        list-style: none;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+
+    }
+
 }
