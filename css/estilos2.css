@@ -5,6 +5,13 @@
 
 }
 
+
+
+
+
+
+
+
 a {
     text-decoration: none;
 }
@@ -22,12 +29,6 @@ nav ul li {
     padding: 0 10px;
 }
 
-
-.principal h3 {
-    border-bottom: 1px solid rgb(211, 143, 6);
-    padding-bottom: 5px;
-    font-size: 1.2em;
-}
 
 img {
     max-width: 100%;
