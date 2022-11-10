@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+*, a {
+    font-family: 'Roboto', sans-serif;
+    color:#996508;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    
+    font-size: 15px;
+}
+
+nav ul {
+    list-style: none;
+}
+ 
+nav ul li {
+    padding: 0 10px;
+}
+
+
+.principal h3 {
+    border-bottom: 1px solid rgb(211, 143, 6);
+    padding-bottom: 5px;
+    font-size: 1.2em;
+}
+
+img {
+    max-width: 100%;
+}
+
+.items > div {
+    max-height: 200px;
+    overflow: hidden;
+}
+
+.animacion {
+    animation-duration: 3s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+}
+
+@keyframes aparecer {
+    0% {opacity:0;}
+    100% {opacity: 1;}
+}
+
+.menuanimacion a{
+    color: #996508;
+    transition:  2s;
+}
+
+.menuanimacion a:hover {
+    color: red ;
+}
