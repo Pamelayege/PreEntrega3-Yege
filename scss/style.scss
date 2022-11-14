@@ -5,6 +5,13 @@ $total-font: 'Roboto', sans-serif;
 $header-bcolor: #fcb73f;
 $medida: 2rem;
 
+/*/MIXING /*/
+
+@mixin name {
+    
+}
+
+
 img {
     max-width: 100%;
 }
@@ -33,7 +40,7 @@ section {
 
     h3 {
         text-transform: uppercase;
-        font-size: 2rem;
+        font-size: $medida;
         margin-bottom: 0;
         padding-top: 50px;
     }
