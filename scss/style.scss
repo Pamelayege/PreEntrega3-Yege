@@ -3,13 +3,11 @@
 $principal-color: #996508;
 $total-font: 'Roboto', sans-serif;
 $header-bcolor: #fcb73f;
-$medida: 2rem;
+$measure: 2rem;
+$footer-color: rgb(221, 221, 221)
+    /*/MIXING /*/
 
-/*/MIXING /*/
-
-@mixin name {
-    
-}
+    @mixin name {}
 
 
 img {
@@ -38,28 +36,44 @@ header {
 
 section {
 
+    .items {
+        margin: 30px auto 60px;
+        font-size: 1rem;
+    }
+
     h3 {
-        text-transform: uppercase;
         font-size: $medida;
         margin-bottom: 0;
-        padding-top: 50px;
+        padding-top: 30px;
+        border-bottom: 1px solid black;
+        text-align: left;
     }
 
     p {
         font-size: 1rem;
     }
+
+    .contacto {
+        margin: 30px auto 90px;
+
+    }
+
+    h4 {
+        padding-top: 9px;
+    }
 }
 
 
-
-
-
 footer {
-    background-color: rgb(221, 221, 221);
+    background-color: $footer-color;
     text-align: justify;
 
     text {
         font-size: 1rem;
+    }
+
+    ul {
+        padding-left: 0;
     }
 
     li {

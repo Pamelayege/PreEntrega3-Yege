@@ -17,20 +17,33 @@ header {
   header h2 {
     font-size: .8rem; }
 
+section .items {
+  margin: 30px auto 60px;
+  font-size: 1rem; }
+
 section h3 {
-  text-transform: uppercase;
   font-size: 2rem;
   margin-bottom: 0;
-  padding-top: 50px; }
+  padding-top: 30px;
+  border-bottom: 1px solid black;
+  text-align: left; }
 
 section p {
   font-size: 1rem; }
+
+section .contacto {
+  margin: 30px auto 90px; }
+
+section h4 {
+  padding-top: 9px; }
 
 footer {
   background-color: #dddddd;
   text-align: justify; }
   footer text {
     font-size: 1rem; }
+  footer ul {
+    padding-left: 0; }
   footer li {
     list-style: none; }
   footer a {
